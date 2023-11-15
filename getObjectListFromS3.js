@@ -1,7 +1,5 @@
 const AWS = require("aws-sdk");
 
-const { PRIVATE_BUCKET } = require("../../config");
-
 async function getObjectListFromS3(bucketName, prefix) {
   const s3 = new AWS.S3();
   const params = {
