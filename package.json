@@ -1,20 +1,20 @@
 {
-  "name": "@jamesjessian/aws-utils",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jamesjessian/aws-utils.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/jamesjessian"
-  },
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aws-sdk": "^2.1496.0"
-  }
+	"name": "@jamesjessian/aws-utils",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jamesjessian/aws-utils.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/jamesjessian"
+	},
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.1496.0"
+	}
 }
