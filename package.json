@@ -1,6 +1,6 @@
 {
 	"name": "@jamesjessian/aws-utils",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"repository": {
@@ -10,14 +10,15 @@
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/jamesjessian"
 	},
-  "bin": {
-    "aws-get-object-list": "./bin/aws-object-list.js"
-  },
+	"bin": {
+		"aws-get-object-list": "./bin/aws-object-list.js"
+	},
 	"scripts": {},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"aws-sdk": "^2.1496.0"
+		"aws-sdk": "^2.1496.0",
+		"try-json": "^1.0.1"
 	}
 }
