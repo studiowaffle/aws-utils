@@ -1,5 +1,5 @@
 const jsonparse = require('try-json')
-const paramsToObject = require('./paramsToObject')
+const paramsToObject = require('../internal/paramsToObject')
 
 function getEventBody(event) {
 	if (!event || !event.body) return null
