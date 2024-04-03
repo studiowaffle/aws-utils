@@ -15,7 +15,7 @@ function uploadFileToS3(bucketName, path, filePath, { public = false, mimeType, 
 			Body: fs.readFileSync(filePath),
 		}
 
-		if (makePublic) params.ACL = 'public-read'
+		if (public) params.ACL = 'public-read'
 		if (mimeType) params.ContentType = mimeType
 		if (cacheControl) params.CacheControl = cacheControl
 
