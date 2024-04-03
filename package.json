@@ -16,7 +16,7 @@
 	"scripts": {},
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
+	"license": "UNLICENSED",
 	"dependencies": {
 		"aws-sdk": "^2.1496.0",
 		"try-json": "^1.0.1"
