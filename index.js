@@ -6,9 +6,10 @@ module.exports = {
 	getJsonFromS3: require('./s3/getJsonFromS3'),
 	getTextFromS3: require('./s3/getTextFromS3'),
 
-	getEventCookies: require('./lambda/getEventCookies'),
-	getEventSource: require('./lambda/getEventSource'),
-	getEventQueryStringParameters: require('./lambda/getEventQueryStringParameters'),
-	httpResponses: require('./lambda/httpResponses'),
 	getEventBody: require('./lambda/getEventBody'),
+	getEventSource: require('./lambda/getEventSource'),
+	getEventCookies: require('./lambda/getEventCookies'),
+	getEventQueryStringParameters: require('./lambda/getEventQueryStringParameters'),
+
+	httpResponses: require('./lambda/httpResponses'),
 }
