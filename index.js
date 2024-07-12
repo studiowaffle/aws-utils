@@ -8,6 +8,7 @@ module.exports = {
 
 	getEventCookies: require('./lambda/getEventCookies'),
 	getEventSource: require('./lambda/getEventSource'),
+	getEventQueryStringParameters: require('./lambda/getEventQueryStringParameters'),
 	httpResponses: require('./lambda/httpResponses'),
 	getEventBody: require('./lambda/getEventBody'),
 }
