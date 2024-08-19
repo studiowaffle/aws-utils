@@ -1,3 +1,5 @@
+process.env.AWS_SDK_JS_SUPPRESS_MAINTENANCE_MODE_MESSAGE = '1'
+
 module.exports = {
 	getObjectListFromS3: require('./s3/getObjectListFromS3'),
 	deleteObjectFromS3: require('./s3/deleteObjectFromS3'),
