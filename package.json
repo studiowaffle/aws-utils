@@ -11,7 +11,8 @@
 		"registry": "https://npm.pkg.github.com/jamesjessian"
 	},
 	"bin": {
-		"aws-get-object-list": "./bin/aws-object-list.js"
+		"aws-get-object-list": "./bin/aws-object-list.js",
+		"download-secrets": "./bin/download-secrets.js"
 	},
 	"scripts": {},
 	"keywords": [],

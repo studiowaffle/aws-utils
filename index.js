@@ -13,6 +13,4 @@ module.exports = {
 	getEventCookies: require('./lambda/getEventCookies'),
 	getEventQueryStringParameters: require('./lambda/getEventQueryStringParameters'),
 	httpResponses: require('./lambda/httpResponses'),
-
-	downloadSecretsToEnvFile: require('./secrets-manager/downloadSecretsToEnvFile'),
 }
