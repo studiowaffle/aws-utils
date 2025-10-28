@@ -14,7 +14,10 @@ function getEventBody(event) {
 		const sp = new URLSearchParams(eventBody)
 		body = paramsToObject(sp)
 		Object.keys(body).forEach(key => {
-			body[key] = jsonparse(body[key])
+			const jsonValue = jsonparse(body[key])
+			if (jsonValue !== undefined) {
+				body[key] = jsonValue
+			}
 		})
 	} else {
 		body = jsonparse(eventBody)
